@@ -1,6 +1,6 @@
 FROM nginx:latest
 
-COPY default.conf /etc/nginx/conf.d/
+COPY default.conf.template /etc/nginx/templates/
 
 EXPOSE 80
 
